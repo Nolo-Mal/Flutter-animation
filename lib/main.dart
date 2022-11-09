@@ -14,9 +14,9 @@ class FunkyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Funky App',
       theme: ThemeData(
-        primarySwatch: Colors.red,
+        primarySwatch: Colors.blue,
       ),
-      home: const FunkyHomeView(title: 'Make me Nice'),
+      home: const FunkyHomeView(title: 'Make me Move'),
     );
   }
 }
